@@ -79,7 +79,7 @@ Durante o teste, o script gera automaticamente alguns arquivos que documentam a 
 
 ### 📝 `baseline.json`
 Registra o ponto de partida antes do teste, incluindo:
-- Informações do sistema
+- Informações do sistema auditor
 - URL testada
 - Estrutura das fases
 
