@@ -69,11 +69,12 @@ Este script foi desenvolvido em Python 3 e depende das seguintes bibliotecas:
 Você pode instalar todos os pacotes necessários com o seguinte comando:
 
 ```bash
-pip install requests matplotlib numpy
+pip install requests matplotlib numpy  
+```
+e está pronto para execução.
 
----
 
-## 📦 Outputs do Script
+ ## 📦 Outputs do Script
 
 Durante o teste, o script gera automaticamente alguns arquivos que documentam a execução e seus impactos:
 
