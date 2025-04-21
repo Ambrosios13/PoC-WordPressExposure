@@ -71,7 +71,6 @@ Você pode instalar todos os pacotes necessários com o seguinte comando:
 ```bash
 pip install requests matplotlib numpy  
 ```
-e está pronto para execução.
 
 
  ## 📦 Outputs do Script
