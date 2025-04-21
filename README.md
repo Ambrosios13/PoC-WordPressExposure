@@ -43,7 +43,7 @@ Isso pode causar:
 ---
 ## ⚙️ Funcionalidade
 
-O código pressiona o sistema com carga crescente por meio de múltiplas instâncias (threads) organizadas em fases sequenciais. A cada nova fase, mais threads são somadas ao teste, intensificando gradualmente o volume de requisições enviadas ao endpoint `wp-cron.php`.
+O código pressiona o sistema com carga crescente por meio de múltiplas threads (unidades paralelas de execução) organizadas em fases sequenciais. A cada nova fase, mais threads são somadas ao teste, intensificando gradualmente o volume de requisições enviadas ao endpoint `wp-cron.php`.
 
 Durante o processo, o script:
 
