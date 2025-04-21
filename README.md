@@ -70,3 +70,35 @@ Você pode instalar todos os pacotes necessários com o seguinte comando:
 
 ```bash
 pip install requests matplotlib numpy
+
+---
+
+## 📦 Outputs do Script
+
+Durante o teste, o script gera automaticamente alguns arquivos que documentam a execução e seus impactos:
+
+### 📝 `baseline.json`
+Registra o ponto de partida antes do teste, incluindo:
+- Informações do sistema
+- URL testada
+- Estrutura das fases
+
+### 📊 `dados_brutos_*.json`
+Contém todos os dados coletados:
+- Latência de cada requisição
+- Códigos HTTP retornados
+- Timestamps e momentos de troca de fase
+
+### 📈 `estatisticas_*.json`
+Resumo por fase com:
+- Número de threads 
+- Média e mediana de latência
+- Sucessos, timeouts e percentuais
+
+### 🖼️ `relatorio_completo_*.png`
+Painel visual com gráficos que ilustram:
+- Distribuição de latências
+- Desempenho por fase
+- Capacidade de resposta sob carga
+
+> Esses arquivos permitem analisar com clareza a degradação do serviço e evidenciar o impacto causado por acessos simultâneos ao `wp-cron.php`.
