@@ -1,0 +1,12 @@
+# Ignora resultados gerados automaticamente
+resultados_teste_dos/
+*.json
+*.png
+
+# Mas mantém os exemplos:
+!resultados_exemplo/*.png
+!resultados_exemplo/*.json
+
+# Cache Python
+__pycache__/
+*.pyc
