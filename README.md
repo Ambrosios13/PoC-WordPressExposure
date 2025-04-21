@@ -57,7 +57,16 @@ Essa abordagem permite **observar claramente a degradação do serviço** à med
 
 ## 🛠 Execução
 
-### 1. Instale as dependências:
+
+Este script foi desenvolvido em Python 3 e depende das seguintes bibliotecas:
+
+- `requests` – para envio das requisições HTTP
+- `matplotlib` – para geração dos gráficos
+- `numpy` – para cálculos estatísticos
+
+### ✅ Instalação das dependências
+
+Você pode instalar todos os pacotes necessários com o seguinte comando:
 
 ```bash
-pip install matplotlib requests numpy
+pip install requests matplotlib numpy
