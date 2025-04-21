@@ -52,7 +52,7 @@ Durante o processo, o script:
 - Coleta os códigos de status HTTP (como 200, timeout, erro)
 - Gera relatórios com gráficos e estatísticas detalhadas
 
-Essa abordagem permite **observar claramente a degradação do serviço** à medida que a carga aumenta, validando a vulnerabilidade e demonstrando como o endpoint pode ser abusado por agentes maliciosos em um cenário realista de DoS.
+Essa abordagem permite **observar claramente a degradação do serviço** à medida que a carga aumenta, validando a vulnerabilidade e demonstrando como o endpoint pode ser abusado por agentes maliciosos em um cenário realista de DoS e outros ataques.
 
 
 ## 🛠 Execução
