@@ -1,6 +1,6 @@
 # PoC-WordPressExposure
 
-Prova de conceito (PoC) demonstrando uma vulnerabilidade no endpoint exposto `wp-cron.php` do WordPress após identificação em auditoria. O teste confirma como esse endpoint, quando exposto publicamente, pode ser abusado por atores maliciosos para causar negação de serviço (DoS/DDoS) ou degradação de desempenho do site atráves de sobrecarga no sistema.
+Prova de conceito (PoC) demonstrando uma vulnerabilidade no endpoint `wp-cron.php` do WordPress após identificação da mesma no site de cliente. Os resultados do teste confirmam como esse endpoint, quando exposto publicamente, pode ser abusado por atores maliciosos para causar negação de serviço (DoS/DDoS) ou degradação de desempenho do site atráves de sobrecarga no sistema.
 
 ## 📌 Sobre
 
