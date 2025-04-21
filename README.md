@@ -105,3 +105,12 @@ Painel visual com gráficos que ilustram:
 - Capacidade de resposta sob carga
 
 > Esses arquivos permitem analisar com clareza a degradação do serviço e evidenciar o impacto causado por acessos simultâneos ao `wp-cron.php`.
+
+---
+
+## 🛡️ Mitigação
+
+Mitigar essa exposição é simples e eficaz: **basta impedir que o endpoint `wp-cron.php` seja acessado por qualquer pessoa não autorizada**.
+
+Isso pode ser feito configurando o servidor ou o próprio WordPress para que **somente administradores autenticados ou o próprio sistema tenham permissão** para acionar esse arquivo. Essa medida elimina o risco de abusos automatizados, mantendo o agendador do WordPress funcional e seguro.
+
