@@ -11,7 +11,7 @@ from matplotlib.gridspec import GridSpec
 import json
 
 # Parâmetros de configuração
-URL = "http://SiteFrágilIdentificado.com.br/wp-cron.php" #Substituir por domínio com o endpoint exposto
+URL = "http://exemplo.com/wp-cron.php" #Substituir por domínio com o endpoint confirmadamente exposto
 FASES = [0, 20, 50, 100, 150, 200]  # Primeira fase (0) é medição de baseline
 DURACAO_FASE = 20  # segundos por fase
 TIMEOUT = 21  # timeout de requisição em segundos
