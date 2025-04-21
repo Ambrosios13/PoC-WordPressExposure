@@ -70,16 +70,3 @@ Você pode instalar todos os pacotes necessários com o seguinte comando:
 
 ```bash
 pip install requests matplotlib numpy
-
-
-## 📊 Interpretação dos Resultados
-
-O arquivo `dados_brutos_*.json` armazena todas as requisições feitas durante o teste, com latências, timestamps e códigos de resposta HTTP.
-
-### 🚨 O que os dados mostram:
-- **Latência crescente**: tempos de resposta aumentam progressivamente, chegando a 13s+ nas últimas fases.
-- **Timeouts em massa**: grande parte das requisições termina sem resposta (`"Timeout"`), indicando que o servidor não suporta a carga.
-- **Colapso do serviço**: após certo ponto (~200 threads), a maioria das requisições falha, o que comprova **negação de serviço efetiva**.
-
-### ✅ Conclusão
-As saídas JSON comprovam que o `wp-cron.php` está vulnerável a sobrecarga, e pode ser explorado para causar **DoS/DDoS/flooding**. Mesmo em um ambiente controlado, o endpoint não suporta múltiplas requisições simultâneas, confirmando a fragilidade de sua exposição pública.
