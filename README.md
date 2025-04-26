@@ -1,7 +1,7 @@
 # 🛡️ PoC - WordPress `wp-cron.php` Exposure
 
 > 🚨 **DISCLAIMER:** Este material resulta de testes éticos consentidos realizados **exclusivamente** em ambiente com **permissão legal expressa**.  
-> A utilização deste projeto em sites ou sistemas para os quais você **não tem permissão** é **ilegal** e é algo que **desencorajo fortemente**.
+> A utilização deste projeto em sites ou sistemas para os quais você **não tem permissão** é **ilegal** e é algo que **desencorajo**.
 
 
 
