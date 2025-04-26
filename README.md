@@ -10,7 +10,7 @@ Prova de conceito (PoC) demonstrando uma vulnerabilidade no endpoint `wp-cron.ph
 Os resultados do teste confirmam como esse endpoint, quando exposto publicamente, pode ser abusado por agentes maliciosos para causar:
 
 - ❌ Negação de serviço (DoS / DDoS)
-- 📉 Degradação de desempenho do site
+- 📉 Degradação controlada de desempenho do site
 
 ---
 
