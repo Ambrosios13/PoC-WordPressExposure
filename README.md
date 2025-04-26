@@ -1,6 +1,8 @@
 # 🛡️ PoC - WordPress `wp-cron.php` Exposure
 
-> 🚨 **DISCLAIMER:** Este material resulta de testes éticos consentidos realizados **exclusivamente** em ambiente com **permissão legal expressa**.
+> 🚨 **DISCLAIMER:** Este material resulta de testes éticos consentidos realizados **exclusivamente** em ambiente com **permissão legal expressa**.  
+> A utilização deste projeto em sites ou sistemas para os quais você **não tem permissão** é **ilegal** e é algo que **desencorajo fortemente**.
+
 
 
 Prova de conceito (PoC) demonstrando uma vulnerabilidade no endpoint `wp-cron.php` do WordPress, identificada durante auditoria real em ambiente autorizado.
