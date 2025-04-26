@@ -55,9 +55,9 @@ Durante o processo, o script:
 - Envia requisições em alta frequência de forma simultânea
 - Registra o tempo de resposta de cada tentativa
 - Coleta os códigos de status HTTP (como 200, timeout, erro)
-- Gera relatórios com gráficos e estatísticas detalhadas
+- Gera relatórios com gráficos e estatísticas simples para evidenciar a degradação.
 
-Essa abordagem permite **observar claramente a degradação do serviço** à medida que a carga aumenta, validando a vulnerabilidade e demonstrando como o endpoint pode ser abusado por agentes maliciosos em um cenário realista de DoS e outros ataques.
+Essa abordagem permite **observar claramente a degradação do serviço** à medida que a carga aumenta, validando a vulnerabilidade e demonstrando como o endpoint pode ser abusado por agentes maliciosos em um cenário realista de Flooding escalonando para DoS/DDoS.
 
 
 ## 🛠 Execução
@@ -112,7 +112,7 @@ Painel visual com gráficos que ilustram:
 
 ## 🛡️ Mitigação
 
-Mitigar essa exposição é simples e eficaz: **basta impedir que o endpoint `wp-cron.php` seja acessado por qualquer pessoa não autorizada**.
+Mitigar essa exposição é simples e necessário: **basta impedir que o endpoint `wp-cron.php` seja acessível via browser para qualquer utilizador**.
 
 Isso pode ser feito configurando o servidor ou o próprio WordPress para que **somente administradores autenticados ou o próprio sistema tenham permissão** para acionar esse arquivo. Essa medida elimina o risco de abusos automatizados, mantendo o agendador do WordPress funcional e seguro.
 
