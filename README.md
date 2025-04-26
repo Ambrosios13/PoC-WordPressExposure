@@ -28,10 +28,10 @@ O script contido neste repositório realiza **envio e aumento gradual de carga**
 
 ## 🚨 O que é o `wp-cron.php`?
 
-O `wp-cron.php` é um arquivo interno do WordPress responsável por agendar tarefas como publicações, atualizações e verificações automáticas.  
-Esse recurso deveria ser acionado **internamente**, apenas quando necessário.
+O `wp-cron.php` é um arquivo do WordPress usado para agendar tarefas como publicações e atualizações automáticas. Ele deveria ser acionado **internamente**, mas muitos sites deixam o arquivo **acessível pela internet**, o que pode permitir que qualquer pessoa envie requisições e potencialmente explore falhas de segurança.
 
-No entanto, muitos sites deixam esse arquivo **acessível pela internet**, permitindo que qualquer um envie requisições diretamente a ele.
+Para aumentar a segurança, é recomendável bloquear o acesso externo ao arquivo ou desativá-lo, configurando o cron manualmente.
+
 
 ---
 
