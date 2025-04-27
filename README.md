@@ -114,5 +114,5 @@ Painel visual com gráficos que ilustram:
 
 Mitigar essa exposição é simples e necessário: **basta impedir que o endpoint `wp-cron.php` seja acessível via browser para qualquer utilizador**.
 
-Isso pode ser feito configurando o servidor ou o próprio WordPress para que **somente administradores autenticados ou o próprio sistema tenham permissão** para acionar esse arquivo. Essa medida elimina o risco de abusos automatizados, mantendo o agendador do WordPress funcional e seguro.
+Isso pode ser feito configurando o servidor ou o próprio WordPress para que o arquivo seja acessível apenas **internamente** e não para qualquer usuario via browser. Essa medida elimina o risco de abusos automatizados, mantendo o agendador do WordPress funcional e seguro.
 
