@@ -22,7 +22,7 @@ O script contido neste repositório realiza **envio e aumento gradual de carga**
 - 🔁 Timeouts  
 - 📊 Estabilidade do serviço  
 
-> Nenhum serviço é derrubado neste processo — trata-se de uma **ação controlada** e segura para fins de PoC.
+> No exemplo em questão nenhum serviço foi derrubado durante os testes — trata-se de uma **ação controlada** e segura para fins de PoC.
 
 ---
 
