@@ -45,6 +45,23 @@ Isso pode causar:
 - 💥 Quedas temporárias (DoS – *Denial of Service*)  
 
 ---
+
+## 🎥 PoC.mp4 – Demonstração do Ataque
+
+O vídeo `PoC.mp4` apresenta uma gravação prática da execução do script de carga contra um site WordPress com o endpoint `wp-cron.php` publicamente acessível.
+
+Durante a demonstração, é possível observar:
+
+- O script sendo executado em fases crescentes de requisições
+- A resposta do site sendo progressivamente afetada
+- Momentos de lentidão e instabilidade causados pela sobrecarga
+- Evidência visual do impacto que acessos automatizados ao `wp-cron.php` podem causar
+
+Essa gravação serve como **validação visual da vulnerabilidade explorada**, destacando a importância de restringir o acesso externo a esse endpoint mesmo em ambientes de baixo tráfego.
+
+> Nenhum sistema real foi prejudicado durante o experimento — o teste foi conduzido em ambiente autorizado e monitorado.
+
+---
 ## ⚙️ Funcionalidade
 
 O código pressiona o sistema com carga crescente por meio de múltiplas threads (unidades paralelas de execução) organizadas em fases sequenciais. A cada nova fase, mais threads são somadas ao teste, intensificando gradualmente o volume de requisições enviadas ao endpoint `wp-cron.php`, com intenção de registrar o impacto no desempenho do serviço.
