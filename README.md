@@ -130,3 +130,11 @@ Mitigar essa exposição é simples e necessário: **basta impedir que o endpoin
 
 Isso pode ser feito configurando o servidor ou o próprio WordPress para que o arquivo seja acessível apenas **internamente** e não para qualquer usuario via browser. Essa medida elimina o risco de abusos automatizados, mantendo o agendador do WordPress funcional e seguro.
 
+---
+
+### 🛠️ Recomendações Adicionais
+
+- Configure tarefas agendadas do WordPress via `cron` do sistema operacional (cron job tradicional do Linux).
+- Use **Web Application Firewalls (WAFs)** para filtrar requisições maliciosas.
+- Monitore logs de acesso para identificar padrões suspeitos relacionados ao `wp-cron.php`.
+- Limite a frequência de chamadas ao `wp-cron.php` com regras de **rate-limiting**.
