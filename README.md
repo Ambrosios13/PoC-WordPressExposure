@@ -33,15 +33,14 @@ Para aumentar a segurança, é recomendável bloquear o acesso externo ao arquiv
 
 ---
 
-## ❗ Por que isso é um problema?
+### ❗ Por que isso é um problema?
 
-Quando o `wp-cron.php` é acessado, o WordPress inicia uma série de processos internos. Se isso ocorrer em grande volume, o servidor pode ficar sobrecarregado — principalmente em ambientes compartilhados ou mal otimizados.
+Quando o arquivo `wp-cron.php` é acionado, o WordPress executa rotinas internas programadas.  
+O acesso externo não controlado a esse endpoint permite que agentes maliciosos simulem execuções em massa, sobrecarregando o servidor — especialmente em ambientes com recursos limitados. Isso pode resultar em:
 
-Isso pode causar:
-
-- 🔄 Lentidão geral no site  
-- ⚠️ Erros de conexão  
-- 💥 Quedas temporárias (DoS – *Denial of Service*)  
+- 🔄 **Lentidão generalizada do site**
+- ⚠️ **Erros de conexão intermitentes**
+- 💥 **Quedas temporárias (Denial of Service)**
 
 ---
 
