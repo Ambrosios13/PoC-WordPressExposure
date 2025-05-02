@@ -132,7 +132,7 @@ Isso pode ser feito configurando o servidor ou o próprio WordPress para que o a
 
 ---
 
-### 🛠️ Recomendações Adicionais
+### Recomendações Adicionais
 
 - Configure tarefas agendadas do WordPress via `cron` do sistema operacional (cron job tradicional do Linux).
 - Use **Web Application Firewalls (WAFs)** para filtrar requisições maliciosas.
