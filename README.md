@@ -59,8 +59,6 @@ Durante a demonstração, é possível observar:
 
 Essa gravação serve como **validação visual da vulnerabilidade explorada**, destacando a importância de restringir o acesso externo a esse endpoint mesmo em ambientes de baixo tráfego.
 
-> Nenhum sistema real foi prejudicado durante o experimento — o teste foi conduzido em ambiente autorizado e monitorado.
-
 ---
 ## ⚙️ Funcionalidade
 
