@@ -1,3 +1,5 @@
+![Imagem ilustrativa](image.png)
+
 # 🛡️ PoC - WordPress `wp-cron.php` Exposure
 
 > 🚨 **DISCLAIMER:** Este material resulta de testes éticos consentidos realizados **exclusivamente** em ambiente com **permissão legal expressa**.  
